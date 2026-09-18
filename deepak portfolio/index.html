@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Personal Portfolio of a Creative Developer. Showcasing projects, skills, and experience.">
+    <title>Portfolio | Creative Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Dipak<span class="dot"></span>Maurya</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#Resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link btn-featured">Contact</a></li>
+
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content fade-in-up">
+                <span class="greeting">Hello, I'm Dipak</span>
+                <h1 class="headline">Building <span class="gradient-text">Digital Experiences</span> that Matter.</h1>
+                <p class="sub-headline">I'm a passionate frontend developer and UI/UX enthusiast specialized in building
+                    stunning, responsive, and user-centric websites.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in-up delay-200">
+                <div class="abstract-shape shape-1"></div>
+                <div class="abstract-shape shape-2"></div>
+                <div class="code-card glass-card">
+                    <div class="card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="card-body">
+                        <code>
+                            <span class="keyword">const</span> <span class="variable">developer</span> = {<br>
+                            &nbsp;&nbsp;name: <span class="string">'Dipak'</span>,<br>
+                            &nbsp;&nbsp;skills: [<span class="string">'HTML'</span>, <span class="string">'CSS'</span>, <span class="string">'JS' </span>],<br>
+                            &nbsp;&nbsp;hardWorker: <span class="boolean">true</span><br>
+                            };
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image reveal-left">
+                    <img src="image.jpng.jpeg" alt="Profile Picture">
+                    <div class="experience-badge glass-card">
+                        <span class="years">1+</span>
+                        <span class="text">Years of<br>Experience</span>
+                    </div>
+                </div>
+                <div class="about-text reveal-right">
+                    <h3>Creative Code Crafter</h3>
+                    <p>I don't just write code; I create digital art. My journey began 2 years ago when I decided to
+                        blend my love for design with technical logic. Since then, I've worked on numerous projects
+                        ranging from personal portfolios to complex e-commerce platforms.</p>
+                    <p>I believe in clean code, accessibility, and pixel-perfect design. When I'm not coding, you can
+                        find me exploring new design trends or contributing to open-source communities.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h4>20+</h4>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>10+</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding bg-darker">
+        <div class="container">
+            <div class="section-header center-text">
+                <h2 class="section-title">My Tech Stack</h2>
+                <div class="line mx-auto"></div>
+                <p class="section-desc">Tools and technologies I use to bring ideas to life.</p>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Card 1 -->
+                <div class="skill-card glass-card reveal-up">
+                    <i class="fab fa-html5 skill-icon html-color"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic Structure</p>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="skill-card glass-card reveal-up delay-100">
+                    <i class="fab fa-css3-alt skill-icon css-color"></i>
+                    <h3>CSS3</h3>
+                    <p>Responsive Layouts</p>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="skill-card glass-card reveal-up delay-200">
+                    <i class="fab fa-js skill-icon js-color"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interactive Logic</p>
+                </div>
+                <!-- Skill Card 4 -->
+                <div class="skill-card glass-card reveal-up delay-300">
+                    <i class="fab fa-react skill-icon react-color"></i>
+                    <h3>React</h3>
+                    <p>Modern UI Library</p>
+                </div>
+                <!-- Skill Card 5 -->
+                <div class="skill-card glass-card reveal-up delay-400">
+                    <i class="fab fa-git-alt skill-icon git-color"></i>
+                    <h3>Git</h3>
+                    <p>Version Control</p>
+                </div>
+                <!--Skill Card 6 -->
+                <div class="skill-card glass-card reveal-up delay-500">
+                    <i class="fas fa-database skill-icon sql-color"></i>
+                    <h3>SQL</h3>
+                    <p>Database Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal-up">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1481487484168-9b930d5b7960?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Project 1">
+                        <div class="overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-link"></i></a>
+                            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Dashboard</h3>
+                        <p>A comprehensive dashboard for managing online stores with real-time analytics.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card reveal-up delay-100">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Project 2">
+                        <div class="overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/DeepakMaurya919/Finance-Tracker.git" class="btn-icon"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Finance Tracker App</h3>
+                        <p>Mobile-first application to track personal expenses and visualize spending habits.</p>
+                        <div class="tags">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card reveal-up delay-200">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1547&q=80"
+                            alt="Project 3">
+                        <div class="overlay">
+                            <a href="https://gaminghub-pink.vercel.app/" class="btn-icon"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/DeepakMaurya919/GamingHub1.git" class="btn-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Gaming Portfolio</h3>
+                        <p>A high-performance landing page for a gaming community with 3D elements.</p>
+                        <div class="tags">
+                            <span>Three.js</span>
+                            <span>GSAP</span>
+                            <span>WebGL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="#" class="btn btn-outline">View All Projects</a>
+            </div>
+        </div>
+    </section> 
+
+    
+
+
+
+
+
+    <!--Resume Section-->
+    
+    <section id="Resume" class="resume section-padding bg-darker">
+        <div class="container">
+            <div class="section-header center-text">
+                <h2 class="section-title">My Resume</h2>
+                <div class="line mx-auto"></div>
+                <p class="section-desc">A brief overview of my professional journey and achievements.</p>
+            </div>
+            <div class="resume-content reveal-up">
+                <div class="resume-item">
+                    <h3>Frontend Developer</h3>
+                    <span class="date">Jan 2023 - Present</span>
+                    <p>Working on building responsive and interactive web applications using modern frontend
+                        technologies.</p>
+                </div>
+                <div class="resume-item">
+                    <h3>UI/UX Designer</h3>
+                    <span class="date">Jun 2022 - Dec 2022</span>
+                    <p>Designed user interfaces and experiences for various web and mobile applications, focusing on
+                        usability and aesthetics.</p>
+                </div>
+            </div>
+            <div class="center-btn">
+
+                <a href="Dipak - Frontend Developer Resume.pdf" target="_blank" class="btn btn-outline">Download Resume</a>
+            </div>
+        </div>
+
+    <!-- Contact Section -->
+
+
+    <section id="contact" class="contact section-padding bg-darker">
+        <div class="container">
+            <div class="contact-wrapper glass-card reveal-up">
+                <div class="contact-info">
+                    <h2>Let's work together!</h2>
+                    <p>Have a project in mind trying to solve a problem? I'd love to hear about it.</p>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>dm6046466@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+91 (9219405290) </span>
+                        </li>
+                        <li>
+                            <i class="fas fa-Address"></i>
+                            <span>Ayodhya, (UttarPradesh)</span>
+                        </li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://github.com/DeepakMaurya919"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/deepak-maurya-40b1b1438?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="http://t.me/Deepak_990"><i class="fab fa-telegram"></i></a>
+                        <a href="https://www.instagram.com/deepak___aa2?igsi=cTZ5ZjN6b2JybGY2"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 DipakMaurya. All rights reserved.</p>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
